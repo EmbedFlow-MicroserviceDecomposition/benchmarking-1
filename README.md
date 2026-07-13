@@ -106,6 +106,12 @@ the full hand calculation is in the docstring of `metrics/tests/test_metrics.py`
         full pipeline (extractor → adapter → 10 runs → all 7 metrics),
         `runs/chgnn_tier2_pipeline.md`. Note: paper's acme ≠ this AcmeAir variant
         (38 vs 84 classes). **CHGNN row: 6 cells filled.**
+  - [x] CHGNN × JForum2 (3724e06) + SpringBlog (07ceda2) — full pipeline,
+        `runs/chgnn_tier3_pipeline.md`. SpringBlog n=10; JForum2 n=7 (run 8 stopped
+        mid-training on operator request, incomplete artifacts discarded). JForum2
+        shows a severe quality drop (352 classes into 6 seed clusters: SM 0.043,
+        NED 0.03) continuing the DayTrader/AcmeAir large-app pattern. **CHGNN row:
+        10 cells filled.**
 
 ## Team
 

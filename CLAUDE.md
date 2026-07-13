@@ -31,12 +31,28 @@ CHGNN/CoGCN/Mono2Micro literature):
   where K = #partitions, μ_k = #edges inside partition k, N_k = #classes in k,
   σ_{i,j} = #edges between partitions i and j. Higher is better.
 - ICP (Inter-Call Percentage): fraction of call-edge weight crossing partition
-  boundaries over total call-edge weight. Lower is better.
+  boundaries over total call-edge weight. Lower is better. CONFIRMED against
+  arXiv 2107.09698 (Kalia et al., Mono2Micro): the paper's pairwise-subscripted
+  icp_i,j formula is loose notation for this same single-run "total cross / total
+  calls" metric, not a literal per-pair breakdown to sum — verified because only
+  this reading reproduces the paper's Table 4 ICP values (Daytrader 0.346, AcmeAir
+  0.527, JPetStore 0.333, Plants 0.381) that are already in the team spreadsheet.
 - IFN (Interface Number): IFN = (1/K) * Σ_k |interfaces(k)| where an interface of
   partition k is a class in k that receives calls from OUTSIDE k. Lower is better.
 - NED (Non-Extreme Distribution): NED = 1 − (#classes in partitions of "extreme"
   size / total classes), where a partition is non-extreme if 5 ≤ size ≤ 20
   (standard bounds in this literature). Higher is better.
+- CHM/CHD (Cohesion at Message/Domain level): mean over partitions of the mean
+  pairwise similarity (f_msg = (Jaccard(returns)+Jaccard(params))/2 for CHM,
+  f_dom = Jaccard(domain terms) for CHD) over each partition's externally-invoked
+  operations; partitions with <2 published operations are vacuously 1.0. Higher is
+  better. VERIFIED CORRECT, no action: original source is Al-Debagy & Martinek,
+  SCPE 2021, Eq. 3.8 (https://www.scpe.org/index.php/scpe/article/download/1836/679),
+  confirmed word-for-word against our chm()/f_msg implementation (mean-over-pairs via
+  _pairwise_mean, 1.0 for <2 ops, /2 averaging in f_msg). An earlier team screenshot of
+  this formula had swapped case-branches and no /2 — that screenshot is a transcription
+  error (likely from a later paper re-typesetting the equation), not a deviation in our
+  code. CHD shares CHM's case-split/aggregation logic, so this also confirms CHD.
 
 IMPORTANT: also read tools/chgnn/metric.py after cloning CHGNN — cross-check our
 implementation against theirs. VALIDATION GATE: our metrics run on CHGNN's published
@@ -45,6 +61,25 @@ NOTE: our team's Google Doc has metric formulation screenshots per-tool
 (Mono2Micro / CoGCN / Magnet variants) — if a tool's paper defines a metric variant
 differently, record BOTH values and flag the discrepancy in results.csv notes.
 Also see https://arxiv.org/pdf/2402.08481 (last year's FYP metric definitions).
+
+### Reproduction protocol: fixed-k runs, not each paper's own model-selection sweep
+Some tools don't score a single fixed partitioning — Mono2Micro (arXiv 2107.09698
+§3.4) sweeps candidate partition counts from N/2 downward, drops outliers, and
+reports the MEDIAN metric value across that range. Our pipeline does NOT replicate
+per-tool k-sweep/median/outlier-removal search protocols. DECISION: every cell we
+fill runs the tool at its stock/default fixed-k (or fixed-seed) configuration,
+averaged over repeated stochastic runs where the tool is unseeded (see CHGNN cells:
+"mean of N stock runs") — never a swept-and-selected result. Rationale: replicating
+each paper's own model-selection protocol is a per-tool engineering cost that does
+not scale across the remaining method backlog; the point of this project is a single
+unified scoring pipeline across methods, not exact re-derivation of each paper's
+internal search heuristic.
+Consequence: our numbers are NOT protocol-comparable to a paper's own published
+numbers, even when the metric formula matches exactly and even when a rough
+cross-check confirms the formula (e.g. ICP above). Any results.csv row that cites a
+published number for calibration must note the protocol mismatch explicitly, e.g.
+"published number uses Mono2Micro's k-sweep median protocol (arXiv 2107.09698
+§3.4); this row is a single fixed-k run — calibration only, not protocol-comparable."
 
 ## The extractor (extractor/) — BUILD SECOND
 JavaParser-based CLI: input = path to a Java repo; output = nodes.csv (class FQNs)
