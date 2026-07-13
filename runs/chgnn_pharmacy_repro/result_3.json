@@ -1,0 +1,948 @@
+{
+    "clusters": [
+        {
+            "type": "microservices_group",
+            "label": "0",
+            "id": "17839685530129740880412672",
+            "nodes": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13"
+            ]
+        },
+        {
+            "type": "microservices_group",
+            "label": "2",
+            "id": "17839685530129790272536576",
+            "nodes": [
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25"
+            ]
+        },
+        {
+            "type": "microservices_group",
+            "label": "3",
+            "id": "17839685530129820337307648",
+            "nodes": [
+                "26",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36"
+            ]
+        },
+        {
+            "type": "microservices_group",
+            "label": "1",
+            "id": "17839685530129839664660480",
+            "nodes": [
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "type": "inter_class_connections",
+            "weight": "1",
+            "relationship": [
+                {
+                    "label": "icu",
+                    "id": "9_4",
+                    "properties": {
+                        "start": "9",
+                        "end": "4"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "42_40",
+                    "properties": {
+                        "start": "42",
+                        "end": "40"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "10_5",
+                    "properties": {
+                        "start": "10",
+                        "end": "5"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "30_29",
+                    "properties": {
+                        "start": "30",
+                        "end": "29"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "25_24",
+                    "properties": {
+                        "start": "25",
+                        "end": "24"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "23_22",
+                    "properties": {
+                        "start": "23",
+                        "end": "22"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "13_14",
+                    "properties": {
+                        "start": "13",
+                        "end": "14"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "35_34",
+                    "properties": {
+                        "start": "35",
+                        "end": "34"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "36_26",
+                    "properties": {
+                        "start": "36",
+                        "end": "26"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "38_39",
+                    "properties": {
+                        "start": "38",
+                        "end": "39"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "39_40",
+                    "properties": {
+                        "start": "39",
+                        "end": "40"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "39_4",
+                    "properties": {
+                        "start": "39",
+                        "end": "4"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "39_5",
+                    "properties": {
+                        "start": "39",
+                        "end": "5"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "39_27",
+                    "properties": {
+                        "start": "39",
+                        "end": "27"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "41_37",
+                    "properties": {
+                        "start": "41",
+                        "end": "37"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "28_27",
+                    "properties": {
+                        "start": "28",
+                        "end": "27"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "6_1",
+                    "properties": {
+                        "start": "6",
+                        "end": "1"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "7_3",
+                    "properties": {
+                        "start": "7",
+                        "end": "3"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "17_16",
+                    "properties": {
+                        "start": "17",
+                        "end": "16"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "17_15",
+                    "properties": {
+                        "start": "17",
+                        "end": "15"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "15_8",
+                    "properties": {
+                        "start": "15",
+                        "end": "8"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "40_42",
+                    "properties": {
+                        "start": "40",
+                        "end": "42"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "29_30",
+                    "properties": {
+                        "start": "29",
+                        "end": "30"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "4_9",
+                    "properties": {
+                        "start": "4",
+                        "end": "9"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "5_10",
+                    "properties": {
+                        "start": "5",
+                        "end": "10"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "37_2",
+                    "properties": {
+                        "start": "37",
+                        "end": "2"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "37_8",
+                    "properties": {
+                        "start": "37",
+                        "end": "8"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "37_40",
+                    "properties": {
+                        "start": "37",
+                        "end": "40"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "37_3",
+                    "properties": {
+                        "start": "37",
+                        "end": "3"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "27_2",
+                    "properties": {
+                        "start": "27",
+                        "end": "2"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "27_29",
+                    "properties": {
+                        "start": "27",
+                        "end": "29"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "1_0",
+                    "properties": {
+                        "start": "1",
+                        "end": "0"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "1_2",
+                    "properties": {
+                        "start": "1",
+                        "end": "2"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "1_17",
+                    "properties": {
+                        "start": "1",
+                        "end": "17"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "1_4",
+                    "properties": {
+                        "start": "1",
+                        "end": "4"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "1_27",
+                    "properties": {
+                        "start": "1",
+                        "end": "27"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "1_3",
+                    "properties": {
+                        "start": "1",
+                        "end": "3"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "1_14",
+                    "properties": {
+                        "start": "1",
+                        "end": "14"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "3_2",
+                    "properties": {
+                        "start": "3",
+                        "end": "2"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "3_15",
+                    "properties": {
+                        "start": "3",
+                        "end": "15"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "3_5",
+                    "properties": {
+                        "start": "3",
+                        "end": "5"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "3_37",
+                    "properties": {
+                        "start": "3",
+                        "end": "37"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "3_1",
+                    "properties": {
+                        "start": "3",
+                        "end": "1"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "11_14",
+                    "properties": {
+                        "start": "11",
+                        "end": "14"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "18_17",
+                    "properties": {
+                        "start": "18",
+                        "end": "17"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "19_18",
+                    "properties": {
+                        "start": "19",
+                        "end": "18"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "19_20",
+                    "properties": {
+                        "start": "19",
+                        "end": "20"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "19_21",
+                    "properties": {
+                        "start": "19",
+                        "end": "21"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "19_12",
+                    "properties": {
+                        "start": "19",
+                        "end": "12"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "22_23",
+                    "properties": {
+                        "start": "22",
+                        "end": "23"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "24_25",
+                    "properties": {
+                        "start": "24",
+                        "end": "25"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "14_13",
+                    "properties": {
+                        "start": "14",
+                        "end": "13"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "14_0",
+                    "properties": {
+                        "start": "14",
+                        "end": "0"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "14_2",
+                    "properties": {
+                        "start": "14",
+                        "end": "2"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "14_1",
+                    "properties": {
+                        "start": "14",
+                        "end": "1"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "14_18",
+                    "properties": {
+                        "start": "14",
+                        "end": "18"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "14_19",
+                    "properties": {
+                        "start": "14",
+                        "end": "19"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "14_20",
+                    "properties": {
+                        "start": "14",
+                        "end": "20"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "14_22",
+                    "properties": {
+                        "start": "14",
+                        "end": "22"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "14_24",
+                    "properties": {
+                        "start": "14",
+                        "end": "24"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "14_26",
+                    "properties": {
+                        "start": "14",
+                        "end": "26"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "31_26",
+                    "properties": {
+                        "start": "31",
+                        "end": "26"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "12_32",
+                    "properties": {
+                        "start": "12",
+                        "end": "32"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "32_33",
+                    "properties": {
+                        "start": "32",
+                        "end": "33"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "34_35",
+                    "properties": {
+                        "start": "34",
+                        "end": "35"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "26_36",
+                    "properties": {
+                        "start": "26",
+                        "end": "36"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "26_0",
+                    "properties": {
+                        "start": "26",
+                        "end": "0"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "26_2",
+                    "properties": {
+                        "start": "26",
+                        "end": "2"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "26_14",
+                    "properties": {
+                        "start": "26",
+                        "end": "14"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "26_12",
+                    "properties": {
+                        "start": "26",
+                        "end": "12"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "26_32",
+                    "properties": {
+                        "start": "26",
+                        "end": "32"
+                    },
+                    "frequency": "1"
+                },
+                {
+                    "label": "icu",
+                    "id": "26_34",
+                    "properties": {
+                        "start": "26",
+                        "end": "34"
+                    },
+                    "frequency": "1"
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.common.dto.PageDto",
+            "id": "0"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.service.DrugService",
+            "id": "1"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.common.utils.CustomBeanUtils",
+            "id": "2"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.service.SubCategoryService",
+            "id": "3"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.repository.DrugRepository",
+            "id": "4"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.repository.SubCategoryRepository",
+            "id": "5"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.controller.DrugController",
+            "id": "6"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.controller.SubCategoryController",
+            "id": "7"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.domain.Category",
+            "id": "8"
+        },
+        {
+            "entity_type": "class",
+            "label": "drugs-res",
+            "id": "9"
+        },
+        {
+            "entity_type": "class",
+            "label": "sub_categories-res",
+            "id": "10"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.order.controller.OrderController",
+            "id": "11"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.user.domain.User",
+            "id": "12"
+        },
+        {
+            "entity_type": "class",
+            "label": "order_prescriptions-res",
+            "id": "13"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.order.service.OrderService",
+            "id": "14"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.domain.SubCategory",
+            "id": "15"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.domain.DosageForm",
+            "id": "16"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.domain.Drug",
+            "id": "17"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.order.domain.DrugQuantity",
+            "id": "18"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.order.domain.Order",
+            "id": "19"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.order.domain.OrderPrescription",
+            "id": "20"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.order.enums.OrderStatus",
+            "id": "21"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.order.repository.DrugQuantityRepository",
+            "id": "22"
+        },
+        {
+            "entity_type": "class",
+            "label": "drug_quantities-res",
+            "id": "23"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.order.repository.OrderRepository",
+            "id": "24"
+        },
+        {
+            "entity_type": "class",
+            "label": "orders-res",
+            "id": "25"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.user.service.UserService",
+            "id": "26"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.service.DosageFormService",
+            "id": "27"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.controller.DosageFormController",
+            "id": "28"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.repository.DosageFormRepository",
+            "id": "29"
+        },
+        {
+            "entity_type": "class",
+            "label": "dosage_forms-res",
+            "id": "30"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.user.controller.UserController",
+            "id": "31"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.user.domain.UserRole",
+            "id": "32"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.user.enums.Role",
+            "id": "33"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.user.repository.UserRepository",
+            "id": "34"
+        },
+        {
+            "entity_type": "class",
+            "label": "users-res",
+            "id": "35"
+        },
+        {
+            "entity_type": "class",
+            "label": "user_roles-res",
+            "id": "36"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.service.CategoryService",
+            "id": "37"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.data.controller.DataController",
+            "id": "38"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.data.service.DataService",
+            "id": "39"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.repository.CategoryRepository",
+            "id": "40"
+        },
+        {
+            "entity_type": "class",
+            "label": "com.upachar.web.drug.controller.CategoryController",
+            "id": "41"
+        },
+        {
+            "entity_type": "class",
+            "label": "categories-res",
+            "id": "42"
+        }
+    ]
+}

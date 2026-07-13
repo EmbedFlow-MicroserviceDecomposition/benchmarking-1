@@ -112,6 +112,11 @@ the full hand calculation is in the docstring of `metrics/tests/test_metrics.py`
         shows a severe quality drop (352 classes into 6 seed clusters: SM 0.043,
         NED 0.03) continuing the DayTrader/AcmeAir large-app pattern. **CHGNN row:
         10 cells filled.**
+  - [x] CHGNN × Bearboard (83da66d) + Pharmacy (18acfdf) — full pipeline, both VAE-C
+        lineage datasets, n=10 each, all runs clean, `runs/chgnn_tier4_pipeline.md`.
+        Both small CRUD apps score well (SM 0.13/0.09, NED 0.77/0.99), consistent
+        with the class-count-vs-seed-domain pattern seen across other cells.
+        **CHGNN row: 14 cells filled.**
 
 ## Team
 
