@@ -2,9 +2,14 @@ dataset,repo,commit
 jpetstore,https://github.com/mybatis/jpetstore-6,ebbd98ae92271c8dfa951d2fef518ba12877bf53
 acmeair,https://github.com/acmeair/acmeair,f16122729873ef0449ea276dfb2d2a1d45bebb40
 spring-petclinic,https://github.com/spring-projects/spring-petclinic,51045d1648dad955df586150c1a1a6e22ef400c2
-fxml-pos,https://github.com/BONY-SL/Point-Of-Sales-System-JAVAFX,1f3b5d15296da4e10411fb0a2790b5cf0ffd3765
+fxml-pos,https://github.com/sadatrafsanjani/JavaFX-Point-of-Sales,00da9301a617140f748e274fe831190cea63442c
 genapp,https://github.com/cicsdev/cics-genapp,f6f3f4b2580d31b7d8dcc31ce3e3676f4cceaaaa
 springblog,https://github.com/Raysmond/SpringBlog,07ceda2460e27095fa146e88c3bbfe66728728dc
 jforum,https://github.com/rafaelsteil/jforum2,3724e06022aa3fb0e39ab87a6a915049b84f473d
 bearboard,https://github.com/rokinmaharjan/bear-board,83da66d519c029346b5425a2c04edea879537067
 pharmacy,https://github.com/rokinmaharjan/pharmacy,18acfdffa859526bda9aaeddddc579c2aa8711db
+roller,https://github.com/apache/roller,db3915af6f6f198cc8efed8da172f7c4acad157f
+daytrader,https://github.com/WASdev/sample.daytrader7,643d04c100f75898003b5c98cde6b5f5015c613a
+plantsbywebsphere,https://github.com/WASdev/sample.plantsbywebsphere,bf5f18b0ba120dfe68a91d7e181c06e32ed6f3c4
+autocare,https://github.com/rokinmaharjan/autocare-nepal,4850e4c60856ee114b38227c97dd68d468d161e1
+train-ticket,https://github.com/showkat2203/train-ticket-monolith,69ed6e3d33062ddb8e2d1a188d43122fddf8f803

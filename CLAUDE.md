@@ -114,7 +114,7 @@ PlantsByWebSphere github.com/WASdev/sample.plantsbywebsphere
 DayTrader         github.com/WASdev/sample.daytrader7
 JPetStore         github.com/mybatis/jpetstore-6
 JForum            github.com/jforum
-FXML-POS          github.com/BONY-SL/Point-Of-Sales-System-JAVAFX
+FXML-POS          github.com/sadatrafsanjani/JavaFX-Point-of-Sales
 SpringBlog        github.com/Raysmond/SpringBlog
 Apache Roller     github.com/apache/roller
 GenApp            github.com/cicsdev/cics-genapp

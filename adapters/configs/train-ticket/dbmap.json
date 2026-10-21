@@ -1,0 +1,80 @@
+{
+  "edu.fudanselab.trainticket.repository.AddMoneyRepository": {
+    "money": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.AssuranceRepository": {
+    "assurance": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.AuthUserRepository": {
+    "auth_user": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.ConfigRepository": {
+    "config": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.ConsignPriceConfigRepository": {
+    "consign_price": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.ConsignRepository": {
+    "consignrecord": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.ContactsRepository": {
+    "contacts": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.DeliveryRepository": {
+    "delivery": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.FoodDeliveryOrderRepository": {
+    "fooddeliveryorder": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.FoodOrderRepository": {
+    "foodorder": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.InsidePaymentAddMoneyRepository": {
+    "inside_money": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.InsidePaymentRepository": {
+    "inside_payment": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.NotifyRepository": {
+    "notifyinfo": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.OrderOtherRepository": {
+    "orders": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.OrderRepository": {
+    "orders": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.PaymentRepository": {
+    "payment": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.PriceConfigRepository": {
+    "priceconfig": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.RouteRepository": {
+    "route": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.SecurityRepository": {
+    "securityconfig": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.StationFoodRepository": {
+    "stationfoodstore": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.StationRepository": {
+    "station": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.TrainFoodRepository": {
+    "trainfood": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.TrainTypeRepository": {
+    "traintype": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.TripRepository": {
+    "trip2": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.UserRepository": {
+    "user": "CRUD"
+  },
+  "edu.fudanselab.trainticket.repository.WaitListOrderRepository": {
+    "waitlistorder": "CRUD"
+  }
+}

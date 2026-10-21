@@ -1,0 +1,5 @@
+user-res, edu.fudanselab.trainticket.service.UserService
+orders-res, edu.fudanselab.trainticket.service.OrderService
+route-res, edu.fudanselab.trainticket.service.RouteService
+payment-res, edu.fudanselab.trainticket.service.PaymentService
+consignrecord-res, edu.fudanselab.trainticket.service.ConsignService
