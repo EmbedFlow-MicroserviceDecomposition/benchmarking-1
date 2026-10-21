@@ -1,0 +1,7 @@
+=== daytrader run 1 (seed 1, already ran above) ===
+=== daytrader run 2 ===
+classes=115 chosen_k=7 clusters=7
+exit=0
+=== daytrader run 3 ===
+classes=115 chosen_k=10 clusters=10
+exit=0

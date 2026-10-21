@@ -1,0 +1,2110 @@
+{
+ "net.jforum.C3P0PooledConnection": [
+  "net.jforum.DBConnection",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.Command": [
+  "net.jforum.context.RequestContext",
+  "net.jforum.context.ResponseContext",
+  "net.jforum.repository.Tpl",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.exceptions.ForumException",
+  "net.jforum.exceptions.TemplateNotFoundException"
+ ],
+ "net.jforum.ConfigLoader": [
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.UrlPatternCollection",
+  "net.jforum.util.FileMonitor",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.cache.Cacheable",
+  "net.jforum.search.SearchFacade",
+  "net.jforum.summary.SummaryScheduler",
+  "net.jforum.api.integration.mail.pop.POPJobStarter",
+  "net.jforum.exceptions.ForumException",
+  "net.jforum.util.preferences.QueriesFileListener",
+  "net.jforum.util.preferences.SystemGlobalsListener",
+  "net.jforum.exceptions.CacheEngineStartupException"
+ ],
+ "net.jforum.ControllerUtils": [
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.context.RequestContext",
+  "net.jforum.util.I18n",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.util.MD5",
+  "net.jforum.entities.UserSession",
+  "net.jforum.entities.User",
+  "net.jforum.SessionFacade",
+  "net.jforum.dao.UserSessionDAO",
+  "net.jforum.sso.SSO",
+  "net.jforum.sso.SSOUtils",
+  "net.jforum.context.SessionContext",
+  "net.jforum.context.ForumContext",
+  "net.jforum.exceptions.DatabaseException",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.DBConnection": [
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.DataSourceConnection": [
+  "net.jforum.DBConnection",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.ForumSessionListener": [
+  "net.jforum.SessionFacade"
+ ],
+ "net.jforum.ForumStartup": [
+  "net.jforum.DBConnection",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.exceptions.DatabaseException",
+  "net.jforum.exceptions.RepositoryStartupException"
+ ],
+ "net.jforum.InstallServlet": [
+  "net.jforum.JForumBaseServlet",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.context.RequestContext",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.I18n",
+  "net.jforum.repository.ModulesRepository",
+  "net.jforum.context.ResponseContext",
+  "net.jforum.exceptions.ExceptionWriter",
+  "net.jforum.context.JForumContext"
+ ],
+ "net.jforum.JForum": [
+  "net.jforum.JForumBaseServlet",
+  "net.jforum.ForumStartup",
+  "net.jforum.DBConnection",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.dao.MySQLVersionWorkarounder",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.repository.RankingRepository",
+  "net.jforum.repository.SmiliesRepository",
+  "net.jforum.repository.BanlistRepository",
+  "net.jforum.context.RequestContext",
+  "net.jforum.ControllerUtils",
+  "net.jforum.SessionFacade",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.entities.UserSession",
+  "net.jforum.repository.ModulesRepository",
+  "net.jforum.context.web.WebRequestContext",
+  "net.jforum.util.I18n",
+  "net.jforum.context.ResponseContext",
+  "net.jforum.context.JForumContext",
+  "net.jforum.exceptions.ExceptionWriter",
+  "net.jforum.entities.Banlist",
+  "net.jforum.ConfigLoader",
+  "net.jforum.exceptions.ForumStartupException"
+ ],
+ "net.jforum.JForumBaseServlet": [
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.ConfigLoader",
+  "net.jforum.repository.ModulesRepository",
+  "net.jforum.util.I18n",
+  "net.jforum.repository.Tpl",
+  "net.jforum.repository.BBCodeRepository",
+  "net.jforum.util.bbcode.BBCodeHandler",
+  "net.jforum.exceptions.ForumStartupException"
+ ],
+ "net.jforum.JForumExecutionContext": [
+  "net.jforum.context.ForumContext",
+  "net.jforum.DBConnection",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.context.ResponseContext",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.PooledConnection": [
+  "net.jforum.C3P0PooledConnection"
+ ],
+ "net.jforum.SessionFacade": [
+  "net.jforum.cache.Cacheable",
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.context.SessionContext",
+  "net.jforum.context.RequestContext",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.entities.UserSession",
+  "net.jforum.context.ForumContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.DBConnection",
+  "net.jforum.dao.UserSessionDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.repository.SecurityRepository"
+ ],
+ "net.jforum.SimpleConnection": [
+  "net.jforum.DBConnection",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.UrlPattern": [],
+ "net.jforum.UrlPatternCollection": [
+  "net.jforum.UrlPattern"
+ ],
+ "net.jforum.api.integration.mail.pop.MessageId": [
+  "net.jforum.entities.Topic"
+ ],
+ "net.jforum.api.integration.mail.pop.POPConnector": [
+  "net.jforum.entities.MailIntegration",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.exceptions.MailException"
+ ],
+ "net.jforum.api.integration.mail.pop.POPJobStarter": [
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.api.integration.mail.pop.POPListener": [
+  "net.jforum.api.integration.mail.pop.POPConnector",
+  "net.jforum.dao.MailIntegrationDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.api.integration.mail.pop.POPParser",
+  "net.jforum.api.integration.mail.pop.POPPostAction"
+ ],
+ "net.jforum.api.integration.mail.pop.POPMessage": [
+  "net.jforum.exceptions.MailException"
+ ],
+ "net.jforum.api.integration.mail.pop.POPParser": [
+  "net.jforum.api.integration.mail.pop.POPConnector"
+ ],
+ "net.jforum.api.integration.mail.pop.POPPostAction": [
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.SessionFacade",
+  "net.jforum.api.integration.mail.pop.POPParser",
+  "net.jforum.api.integration.mail.pop.POPMessage",
+  "net.jforum.context.SessionContext",
+  "net.jforum.context.RequestContext",
+  "net.jforum.entities.UserSession",
+  "net.jforum.entities.User",
+  "net.jforum.view.forum.PostAction",
+  "net.jforum.api.integration.mail.pop.MessageId",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.context.standard.StandardRequestContext",
+  "net.jforum.context.JForumContext"
+ ],
+ "net.jforum.api.rest.RESTAuthentication": [
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.ApiDAO"
+ ],
+ "net.jforum.api.rest.UserREST": [
+  "net.jforum.Command",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.User",
+  "net.jforum.context.RequestContext",
+  "net.jforum.api.rest.RESTAuthentication",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.exceptions.APIException"
+ ],
+ "net.jforum.cache.CacheEngine": [],
+ "net.jforum.cache.Cacheable": [],
+ "net.jforum.cache.DefaultCacheEngine": [
+  "net.jforum.cache.CacheEngine"
+ ],
+ "net.jforum.cache.EhCacheEngine": [
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.cache.JBossCacheEngine": [
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.exceptions.CacheException"
+ ],
+ "net.jforum.cache.JBossCacheListener": [],
+ "net.jforum.context.ForumContext": [],
+ "net.jforum.context.JForumContext": [
+  "net.jforum.context.ForumContext",
+  "net.jforum.context.RequestContext",
+  "net.jforum.context.ResponseContext"
+ ],
+ "net.jforum.context.RequestContext": [],
+ "net.jforum.context.ResponseContext": [],
+ "net.jforum.context.SessionContext": [],
+ "net.jforum.context.standard.StandardRequestContext": [
+  "net.jforum.context.RequestContext",
+  "net.jforum.context.SessionContext",
+  "net.jforum.context.standard.StandardSessionContext"
+ ],
+ "net.jforum.context.standard.StandardSessionContext": [
+  "net.jforum.context.SessionContext"
+ ],
+ "net.jforum.context.web.WebRequestContext": [
+  "net.jforum.context.RequestContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.UrlPatternCollection",
+  "net.jforum.UrlPattern",
+  "net.jforum.util.legacy.commons.fileupload.FileUploadBase",
+  "net.jforum.util.legacy.commons.fileupload.FileItem",
+  "net.jforum.util.legacy.commons.fileupload.servlet.ServletFileUpload",
+  "net.jforum.util.legacy.commons.fileupload.disk.DiskFileItemFactory",
+  "net.jforum.exceptions.MultipartHandlingException"
+ ],
+ "net.jforum.context.web.WebResponseContext": [
+  "net.jforum.context.ResponseContext",
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.context.web.WebSessionContext": [
+  "net.jforum.context.SessionContext"
+ ],
+ "net.jforum.dao.ApiDAO": [],
+ "net.jforum.dao.AttachmentDAO": [],
+ "net.jforum.dao.BanlistDAO": [],
+ "net.jforum.dao.BannerDAO": [],
+ "net.jforum.dao.BookmarkDAO": [],
+ "net.jforum.dao.CategoryDAO": [],
+ "net.jforum.dao.ConfigDAO": [],
+ "net.jforum.dao.DataAccessDriver": [],
+ "net.jforum.dao.ForumDAO": [],
+ "net.jforum.dao.GroupDAO": [],
+ "net.jforum.dao.GroupSecurityDAO": [],
+ "net.jforum.dao.KarmaDAO": [],
+ "net.jforum.dao.LuceneDAO": [],
+ "net.jforum.dao.MailIntegrationDAO": [],
+ "net.jforum.dao.ModerationDAO": [],
+ "net.jforum.dao.ModerationLogDAO": [],
+ "net.jforum.dao.MySQLVersionWorkarounder": [
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.ConfigLoader"
+ ],
+ "net.jforum.dao.PollDAO": [],
+ "net.jforum.dao.PostDAO": [],
+ "net.jforum.dao.PrivateMessageDAO": [],
+ "net.jforum.dao.RankingDAO": [],
+ "net.jforum.dao.SmilieDAO": [],
+ "net.jforum.dao.SummaryDAO": [],
+ "net.jforum.dao.TopicDAO": [],
+ "net.jforum.dao.TreeGroupDAO": [],
+ "net.jforum.dao.UserDAO": [],
+ "net.jforum.dao.UserSessionDAO": [],
+ "net.jforum.dao.generic.AutoKeys": [
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.DbUtils"
+ ],
+ "net.jforum.dao.generic.GenericApiDAO": [
+  "net.jforum.dao.ApiDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericAttachmentDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.AttachmentDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.QuotaLimit",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.AttachmentExtensionGroup",
+  "net.jforum.entities.AttachmentExtension",
+  "net.jforum.entities.Attachment",
+  "net.jforum.entities.AttachmentInfo",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericBanlistDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.BanlistDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.Banlist",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericBannerDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.BannerDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.Banner",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericBookmarkDAO": [
+  "net.jforum.dao.BookmarkDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.Bookmark",
+  "net.jforum.util.DbUtils",
+  "net.jforum.exceptions.DatabaseException",
+  "net.jforum.exceptions.InvalidBookmarkTypeException"
+ ],
+ "net.jforum.dao.generic.GenericCategoryDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.CategoryDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.Category",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericConfigDAO": [
+  "net.jforum.dao.ConfigDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.Config",
+  "net.jforum.util.DbUtils",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericDataAccessDriver": [
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.GroupDAO",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.dao.PollDAO",
+  "net.jforum.dao.RankingDAO",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.dao.TreeGroupDAO",
+  "net.jforum.dao.SmilieDAO",
+  "net.jforum.dao.GroupSecurityDAO",
+  "net.jforum.dao.PrivateMessageDAO",
+  "net.jforum.dao.UserSessionDAO",
+  "net.jforum.dao.KarmaDAO",
+  "net.jforum.dao.BookmarkDAO",
+  "net.jforum.dao.AttachmentDAO",
+  "net.jforum.dao.ModerationDAO",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.dao.CategoryDAO",
+  "net.jforum.dao.ConfigDAO",
+  "net.jforum.dao.BannerDAO",
+  "net.jforum.dao.SummaryDAO",
+  "net.jforum.dao.MailIntegrationDAO",
+  "net.jforum.dao.ApiDAO",
+  "net.jforum.dao.BanlistDAO",
+  "net.jforum.dao.ModerationLogDAO",
+  "net.jforum.dao.LuceneDAO",
+  "net.jforum.dao.generic.GenericGroupDAO",
+  "net.jforum.dao.generic.GenericPostDAO",
+  "net.jforum.dao.generic.GenericPollDAO",
+  "net.jforum.dao.generic.GenericRankingDAO",
+  "net.jforum.dao.generic.GenericTopicDAO",
+  "net.jforum.dao.generic.GenericUserDAO",
+  "net.jforum.dao.generic.GenericTreeGroupDAO",
+  "net.jforum.dao.generic.GenericSmilieDAO",
+  "net.jforum.dao.generic.security.GenericGroupSecurityDAO",
+  "net.jforum.dao.generic.GenericPrivateMessageDAO",
+  "net.jforum.dao.generic.GenericUserSessionDAO",
+  "net.jforum.dao.generic.GenericKarmaDAO",
+  "net.jforum.dao.generic.GenericBookmarkDAO",
+  "net.jforum.dao.generic.GenericAttachmentDAO",
+  "net.jforum.dao.generic.GenericModerationDAO",
+  "net.jforum.dao.generic.GenericForumDAO",
+  "net.jforum.dao.generic.GenericCategoryDAO",
+  "net.jforum.dao.generic.GenericConfigDAO",
+  "net.jforum.dao.generic.GenericBannerDAO",
+  "net.jforum.dao.generic.GenericSummaryDAO",
+  "net.jforum.dao.generic.GenericMailIntegrationDAO",
+  "net.jforum.dao.generic.GenericApiDAO",
+  "net.jforum.dao.generic.GenericBanlistDAO",
+  "net.jforum.dao.generic.GenericModerationLogDAO",
+  "net.jforum.dao.generic.GenericLuceneDAO"
+ ],
+ "net.jforum.dao.generic.GenericForumDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.Forum",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.GroupSecurityDAO",
+  "net.jforum.entities.LastPostInfo",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.entities.Topic",
+  "net.jforum.entities.ModeratorInfo",
+  "net.jforum.entities.ForumStats",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.entities.User",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericGroupDAO": [
+  "net.jforum.dao.GroupDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.GroupSecurityDAO",
+  "net.jforum.entities.Group",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericKarmaDAO": [
+  "net.jforum.dao.KarmaDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.Karma",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.KarmaStatus",
+  "net.jforum.entities.User",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericLuceneDAO": [
+  "net.jforum.dao.LuceneDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.Post",
+  "net.jforum.exceptions.DatabaseException",
+  "net.jforum.search.SearchPost"
+ ],
+ "net.jforum.dao.generic.GenericMailIntegrationDAO": [
+  "net.jforum.dao.MailIntegrationDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.MailIntegration",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericModerationDAO": [
+  "net.jforum.dao.ModerationDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.TopicModerationInfo",
+  "net.jforum.entities.Post",
+  "net.jforum.entities.ModerationPendingInfo",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericModerationLogDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.ModerationLogDAO",
+  "net.jforum.entities.User",
+  "net.jforum.entities.ModerationLog",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericPollDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.PollDAO",
+  "net.jforum.entities.Poll",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.entities.PollOption",
+  "net.jforum.entities.PollChanges",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericPostDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.Post",
+  "net.jforum.dao.KarmaDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.search.SearchFacade",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericPrivateMessageDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.PrivateMessageDAO",
+  "net.jforum.entities.PrivateMessage",
+  "net.jforum.util.DbUtils",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.Post",
+  "net.jforum.entities.User",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericRankingDAO": [
+  "net.jforum.dao.RankingDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.Ranking",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericSmilieDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.SmilieDAO",
+  "net.jforum.entities.Smilie",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericSummaryDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.SummaryDAO",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.Post",
+  "net.jforum.dao.KarmaDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericTopicDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.search.SearchArgs",
+  "net.jforum.util.DbUtils",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.entities.Topic",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.dao.PollDAO",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.entities.User",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.search.SearchResult",
+  "net.jforum.exceptions.DatabaseException",
+  "net.jforum.entities.KarmaStatus"
+ ],
+ "net.jforum.dao.generic.GenericTreeGroupDAO": [
+  "net.jforum.dao.TreeGroupDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.GroupNode",
+  "net.jforum.util.DbUtils",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericUserDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.sso.LoginAuthenticator",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.entities.User",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.Group",
+  "net.jforum.entities.KarmaStatus",
+  "net.jforum.dao.KarmaDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.exceptions.ForumException",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.GenericUserSessionDAO": [
+  "net.jforum.dao.UserSessionDAO",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.UserSession",
+  "net.jforum.util.DbUtils",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.generic.security.GenericGroupSecurityDAO": [
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.dao.GroupSecurityDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.DbUtils",
+  "net.jforum.dao.generic.security.SecurityCommon",
+  "net.jforum.security.Role",
+  "net.jforum.security.RoleValue",
+  "net.jforum.entities.User",
+  "net.jforum.repository.RolesRepository",
+  "net.jforum.entities.Group",
+  "net.jforum.exceptions.DatabaseException",
+  "net.jforum.security.RoleCollection"
+ ],
+ "net.jforum.dao.generic.security.SecurityCommon": [
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.security.Role",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.security.RoleValue",
+  "net.jforum.util.DbUtils",
+  "net.jforum.security.RoleCollection",
+  "net.jforum.security.RoleValueCollection",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.hsqldb.HsqldbDataAccessDriver": [
+  "net.jforum.dao.generic.GenericDataAccessDriver",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.dao.hsqldb.HsqldbPostDAO",
+  "net.jforum.dao.hsqldb.HsqldbUserDAO",
+  "net.jforum.dao.hsqldb.HsqldbTopicDAO"
+ ],
+ "net.jforum.dao.hsqldb.HsqldbPostDAO": [
+  "net.jforum.dao.generic.GenericPostDAO"
+ ],
+ "net.jforum.dao.hsqldb.HsqldbTopicDAO": [
+  "net.jforum.dao.generic.GenericTopicDAO",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.DbUtils",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.hsqldb.HsqldbUserDAO": [
+  "net.jforum.dao.generic.GenericUserDAO"
+ ],
+ "net.jforum.dao.mysql.MySQL323DataAccessDriver": [
+  "net.jforum.dao.mysql.MysqlDataAccessDriver",
+  "net.jforum.dao.GroupSecurityDAO",
+  "net.jforum.dao.mysql.security.MySQL323GroupSecurityDAO"
+ ],
+ "net.jforum.dao.mysql.MysqlDataAccessDriver": [
+  "net.jforum.dao.generic.GenericDataAccessDriver"
+ ],
+ "net.jforum.dao.mysql.security.MySQL323GroupSecurityDAO": [
+  "net.jforum.dao.generic.security.GenericGroupSecurityDAO",
+  "net.jforum.dao.generic.security.SecurityCommon",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.dao.mysql.security.MySQL323GroupSecurityDAO.MySQL323RoleResultSet",
+  "net.jforum.util.DbUtils",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.security.RoleCollection",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.mysql.security.MySQL323GroupSecurityDAO.MySQL323RoleResultSet": [],
+ "net.jforum.dao.oracle.OracleDataAccessDriver": [
+  "net.jforum.dao.generic.GenericDataAccessDriver",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.dao.PrivateMessageDAO",
+  "net.jforum.dao.ModerationDAO",
+  "net.jforum.dao.ModerationLogDAO",
+  "net.jforum.dao.LuceneDAO",
+  "net.jforum.dao.oracle.OraclePostDAO",
+  "net.jforum.dao.oracle.OracleTopicDAO",
+  "net.jforum.dao.oracle.OracleUserDAO",
+  "net.jforum.dao.oracle.OraclePrivateMessageDAO",
+  "net.jforum.dao.oracle.OracleModerationDAO",
+  "net.jforum.dao.oracle.OracleModerationLogDAO",
+  "net.jforum.dao.oracle.OracleLuceneDAO"
+ ],
+ "net.jforum.dao.oracle.OracleLuceneDAO": [
+  "net.jforum.dao.generic.GenericLuceneDAO",
+  "net.jforum.dao.oracle.OracleUtils"
+ ],
+ "net.jforum.dao.oracle.OracleModerationDAO": [
+  "net.jforum.dao.generic.GenericModerationDAO",
+  "net.jforum.dao.oracle.OracleUtils"
+ ],
+ "net.jforum.dao.oracle.OracleModerationLogDAO": [
+  "net.jforum.dao.generic.GenericModerationLogDAO",
+  "net.jforum.dao.generic.AutoKeys",
+  "net.jforum.entities.User",
+  "net.jforum.entities.ModerationLog",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.dao.oracle.OracleUtils",
+  "net.jforum.util.DbUtils",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.oracle.OraclePostDAO": [
+  "net.jforum.dao.generic.GenericPostDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.Post",
+  "net.jforum.dao.oracle.OracleUtils",
+  "net.jforum.util.DbUtils",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.oracle.OraclePrivateMessageDAO": [
+  "net.jforum.dao.generic.GenericPrivateMessageDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.PrivateMessage",
+  "net.jforum.dao.oracle.OracleUtils",
+  "net.jforum.entities.Post"
+ ],
+ "net.jforum.dao.oracle.OracleTopicDAO": [
+  "net.jforum.dao.generic.GenericTopicDAO"
+ ],
+ "net.jforum.dao.oracle.OracleUserDAO": [
+  "net.jforum.dao.generic.GenericUserDAO"
+ ],
+ "net.jforum.dao.oracle.OracleUtils": [
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.DbUtils",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.postgresql.PostgresqlDataAccessDriver": [
+  "net.jforum.dao.generic.GenericDataAccessDriver"
+ ],
+ "net.jforum.dao.sqlserver.SqlServerDataAccessDriver": [
+  "net.jforum.dao.generic.GenericDataAccessDriver",
+  "net.jforum.dao.sqlserver.SqlServerPostDAO",
+  "net.jforum.dao.sqlserver.SqlServerTopicDAO",
+  "net.jforum.dao.sqlserver.SqlServerUserDAO",
+  "net.jforum.dao.sqlserver.SqlServerPrivateMessageDAO",
+  "net.jforum.dao.sqlserver.SqlServerKarmaDAO"
+ ],
+ "net.jforum.dao.sqlserver.SqlServerKarmaDAO": [
+  "net.jforum.dao.generic.GenericKarmaDAO",
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.dao.sqlserver.SqlServerPostDAO": [
+  "net.jforum.dao.generic.GenericPostDAO",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.DbUtils",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.entities.Post",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.sqlserver.SqlServerPrivateMessageDAO": [
+  "net.jforum.dao.generic.GenericPrivateMessageDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.PrivateMessage",
+  "net.jforum.util.DbUtils",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.sqlserver.SqlServerTopicDAO": [
+  "net.jforum.dao.generic.GenericTopicDAO",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.DbUtils",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.sqlserver.SqlServerUserDAO": [
+  "net.jforum.dao.generic.GenericUserDAO",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.DbUtils",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.sqlserver2000.SqlServer2000DataAccessDriver": [
+  "net.jforum.dao.generic.GenericDataAccessDriver",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.dao.ModerationLogDAO",
+  "net.jforum.dao.sqlserver2000.SqlServer2000PostDAO",
+  "net.jforum.dao.sqlserver2000.SqlServer2000TopicDAO",
+  "net.jforum.dao.sqlserver2000.SqlServer2000UserDAO",
+  "net.jforum.dao.sqlserver2000.SqlServer2000ModerationLogDAO"
+ ],
+ "net.jforum.dao.sqlserver2000.SqlServer2000ModerationLogDAO": [
+  "net.jforum.dao.generic.GenericModerationLogDAO",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.DbUtils",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.sqlserver2000.SqlServer2000PostDAO": [
+  "net.jforum.dao.generic.GenericPostDAO",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.DbUtils",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.entities.Post",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.sqlserver2000.SqlServer2000TopicDAO": [
+  "net.jforum.dao.generic.GenericTopicDAO",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.DbUtils",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.entities.User",
+  "net.jforum.entities.Topic",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.dao.sqlserver2000.SqlServer2000UserDAO": [
+  "net.jforum.dao.generic.GenericUserDAO",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.DbUtils",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.entities.Attachment": [
+  "net.jforum.entities.AttachmentInfo",
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.entities.AttachmentExtension": [],
+ "net.jforum.entities.AttachmentExtensionGroup": [],
+ "net.jforum.entities.AttachmentInfo": [
+  "net.jforum.entities.AttachmentExtension"
+ ],
+ "net.jforum.entities.Banlist": [],
+ "net.jforum.entities.Banner": [],
+ "net.jforum.entities.Bookmark": [],
+ "net.jforum.entities.BookmarkType": [],
+ "net.jforum.entities.Category": [
+  "net.jforum.entities.Forum",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.security.PermissionControl",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.util.ForumOrderComparator",
+  "net.jforum.exceptions.ForumOrderChangedException"
+ ],
+ "net.jforum.entities.Config": [],
+ "net.jforum.entities.Forum": [
+  "net.jforum.entities.LastPostInfo",
+  "net.jforum.repository.ForumRepository"
+ ],
+ "net.jforum.entities.ForumModerationInfo": [],
+ "net.jforum.entities.ForumStats": [],
+ "net.jforum.entities.Group": [],
+ "net.jforum.entities.Karma": [],
+ "net.jforum.entities.KarmaStatus": [],
+ "net.jforum.entities.LastPostInfo": [],
+ "net.jforum.entities.MailIntegration": [],
+ "net.jforum.entities.ModerationLog": [
+  "net.jforum.entities.User"
+ ],
+ "net.jforum.entities.ModerationLogType": [],
+ "net.jforum.entities.ModerationPendingInfo": [
+  "net.jforum.entities.ForumModerationInfo"
+ ],
+ "net.jforum.entities.ModeratorInfo": [],
+ "net.jforum.entities.MostUsersEverOnline": [
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.entities.Poll": [
+  "net.jforum.entities.PollChanges",
+  "net.jforum.entities.PollOption"
+ ],
+ "net.jforum.entities.PollChanges": [
+  "net.jforum.entities.Poll",
+  "net.jforum.entities.PollOption"
+ ],
+ "net.jforum.entities.PollOption": [
+  "net.jforum.entities.Poll"
+ ],
+ "net.jforum.entities.Post": [
+  "net.jforum.entities.KarmaStatus",
+  "net.jforum.view.forum.common.ViewCommon"
+ ],
+ "net.jforum.entities.PrivateMessage": [
+  "net.jforum.entities.User",
+  "net.jforum.entities.Post"
+ ],
+ "net.jforum.entities.PrivateMessageType": [],
+ "net.jforum.entities.QuotaLimit": [],
+ "net.jforum.entities.Ranking": [],
+ "net.jforum.entities.Smilie": [],
+ "net.jforum.entities.Topic": [
+  "net.jforum.entities.User"
+ ],
+ "net.jforum.entities.TopicModerationInfo": [],
+ "net.jforum.entities.TopicTypeComparator": [
+  "net.jforum.entities.Topic"
+ ],
+ "net.jforum.entities.User": [
+  "net.jforum.entities.KarmaStatus",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.SessionFacade"
+ ],
+ "net.jforum.entities.UserSession": [
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.security.PermissionControl",
+  "net.jforum.ControllerUtils",
+  "net.jforum.SessionFacade",
+  "net.jforum.entities.User",
+  "net.jforum.util.Captcha",
+  "net.jforum.context.ForumContext",
+  "net.jforum.JForumExecutionContext"
+ ],
+ "net.jforum.exceptions.APIException": [],
+ "net.jforum.exceptions.AttachmentException": [],
+ "net.jforum.exceptions.AttachmentSizeTooBigException": [
+  "net.jforum.exceptions.AttachmentException"
+ ],
+ "net.jforum.exceptions.BadExtensionException": [
+  "net.jforum.exceptions.AttachmentException"
+ ],
+ "net.jforum.exceptions.CacheEngineStartupException": [],
+ "net.jforum.exceptions.CacheException": [],
+ "net.jforum.exceptions.CategoryNotFoundException": [],
+ "net.jforum.exceptions.ConfigLoadException": [],
+ "net.jforum.exceptions.DatabaseException": [],
+ "net.jforum.exceptions.ExceptionWriter": [
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.SessionFacade",
+  "net.jforum.entities.UserSession",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.context.RequestContext"
+ ],
+ "net.jforum.exceptions.ForumException": [],
+ "net.jforum.exceptions.ForumOrderChangedException": [],
+ "net.jforum.exceptions.ForumStartupException": [
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.exceptions.InvalidBookmarkTypeException": [],
+ "net.jforum.exceptions.InvalidURLPatternException": [],
+ "net.jforum.exceptions.LoadForumException": [],
+ "net.jforum.exceptions.MailException": [],
+ "net.jforum.exceptions.MultipartHandlingException": [],
+ "net.jforum.exceptions.RankingLoadException": [],
+ "net.jforum.exceptions.RepositoryStartupException": [],
+ "net.jforum.exceptions.RequestEmptyException": [],
+ "net.jforum.exceptions.SearchException": [],
+ "net.jforum.exceptions.SearchInstantiationException": [],
+ "net.jforum.exceptions.SecurityLoadException": [],
+ "net.jforum.exceptions.SmiliesLoadException": [],
+ "net.jforum.exceptions.TemplateNotFoundException": [],
+ "net.jforum.exceptions.XMLException": [],
+ "net.jforum.repository.BBCodeRepository": [
+  "net.jforum.cache.Cacheable",
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.util.bbcode.BBCodeHandler"
+ ],
+ "net.jforum.repository.BanlistRepository": [
+  "net.jforum.cache.Cacheable",
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.entities.Banlist",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.BanlistDAO"
+ ],
+ "net.jforum.repository.ForumRepository": [
+  "net.jforum.cache.Cacheable",
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.security.PermissionControl",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.entities.Category",
+  "net.jforum.entities.Forum",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.entities.Topic",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.LastPostInfo",
+  "net.jforum.entities.Post",
+  "net.jforum.entities.User",
+  "net.jforum.dao.ConfigDAO",
+  "net.jforum.entities.Config",
+  "net.jforum.entities.MostUsersEverOnline",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.dao.CategoryDAO",
+  "net.jforum.exceptions.CategoryNotFoundException",
+  "net.jforum.util.CategoryOrderComparator",
+  "net.jforum.exceptions.DatabaseException"
+ ],
+ "net.jforum.repository.ModulesRepository": [
+  "net.jforum.ConfigLoader",
+  "net.jforum.context.RequestContext",
+  "net.jforum.JForumExecutionContext"
+ ],
+ "net.jforum.repository.PostRepository": [
+  "net.jforum.cache.Cacheable",
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.view.forum.common.PostCommon",
+  "net.jforum.entities.Post"
+ ],
+ "net.jforum.repository.RankingRepository": [
+  "net.jforum.cache.Cacheable",
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.RankingDAO",
+  "net.jforum.entities.Ranking",
+  "net.jforum.exceptions.RankingLoadException"
+ ],
+ "net.jforum.repository.RolesRepository": [
+  "net.jforum.cache.Cacheable",
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.dao.generic.security.SecurityCommon"
+ ],
+ "net.jforum.repository.SecurityRepository": [
+  "net.jforum.cache.Cacheable",
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.entities.User",
+  "net.jforum.security.PermissionControl",
+  "net.jforum.dao.GroupSecurityDAO",
+  "net.jforum.SessionFacade",
+  "net.jforum.context.SessionContext",
+  "net.jforum.context.RequestContext",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.entities.UserSession",
+  "net.jforum.exceptions.SecurityLoadException"
+ ],
+ "net.jforum.repository.SmiliesRepository": [
+  "net.jforum.cache.Cacheable",
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.dao.SmilieDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.Smilie",
+  "net.jforum.exceptions.SmiliesLoadException"
+ ],
+ "net.jforum.repository.TopicRepository": [
+  "net.jforum.cache.Cacheable",
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.entities.Topic",
+  "net.jforum.entities.TopicTypeComparator"
+ ],
+ "net.jforum.repository.Tpl": [
+  "net.jforum.cache.Cacheable",
+  "net.jforum.cache.CacheEngine",
+  "net.jforum.exceptions.ConfigLoadException"
+ ],
+ "net.jforum.search.ContentSearchOperation": [
+  "net.jforum.search.SearchOperation",
+  "net.jforum.search.SearchArgs",
+  "net.jforum.search.SearchFacade",
+  "net.jforum.search.SearchResult",
+  "net.jforum.view.forum.common.PostCommon",
+  "net.jforum.entities.Post"
+ ],
+ "net.jforum.search.LuceneContentCollector": [
+  "net.jforum.search.LuceneResultCollector",
+  "net.jforum.search.LuceneSettings",
+  "net.jforum.search.SearchArgs",
+  "net.jforum.dao.LuceneDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.entities.Post",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.search.LuceneIndexer": [
+  "net.jforum.search.LuceneSettings",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.Post",
+  "net.jforum.search.NewDocumentAdded",
+  "net.jforum.exceptions.SearchException"
+ ],
+ "net.jforum.search.LuceneManager": [
+  "net.jforum.search.SearchManager",
+  "net.jforum.search.LuceneSearch",
+  "net.jforum.search.LuceneSettings",
+  "net.jforum.search.LuceneIndexer",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.search.LuceneContentCollector",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.search.LuceneReindexArgs": [],
+ "net.jforum.search.LuceneReindexer": [
+  "net.jforum.search.LuceneSettings",
+  "net.jforum.search.LuceneReindexArgs",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.search.LuceneManager",
+  "net.jforum.search.SearchFacade",
+  "net.jforum.dao.LuceneDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.search.LuceneSearch",
+  "net.jforum.entities.Post",
+  "net.jforum.search.LuceneIndexer",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.search.LuceneResultCollector": [],
+ "net.jforum.search.LuceneSearch": [
+  "net.jforum.search.NewDocumentAdded",
+  "net.jforum.search.LuceneSettings",
+  "net.jforum.search.LuceneResultCollector",
+  "net.jforum.search.SearchArgs",
+  "net.jforum.exceptions.SearchException",
+  "net.jforum.search.SearchResult"
+ ],
+ "net.jforum.search.LuceneSettings": [],
+ "net.jforum.search.NewDocumentAdded": [],
+ "net.jforum.search.NewMessagesSearchOperation": [
+  "net.jforum.search.SearchOperation",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.search.SearchResult",
+  "net.jforum.view.forum.common.TopicsCommon",
+  "net.jforum.entities.Topic"
+ ],
+ "net.jforum.search.SearchArgs": [
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.search.SearchFacade": [
+  "net.jforum.search.SearchManager",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.exceptions.SearchInstantiationException",
+  "net.jforum.search.SearchResult"
+ ],
+ "net.jforum.search.SearchFields": [],
+ "net.jforum.search.SearchFields.Indexed": [],
+ "net.jforum.search.SearchFields.Keyword": [],
+ "net.jforum.search.SearchManager": [],
+ "net.jforum.search.SearchOperation": [
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.search.SearchOperation.ForumFilterResult",
+  "net.jforum.search.SearchPost"
+ ],
+ "net.jforum.search.SearchOperation.ForumFilterResult": [
+  "net.jforum.entities.Forum"
+ ],
+ "net.jforum.search.SearchPost": [
+  "net.jforum.entities.Post",
+  "net.jforum.entities.Forum"
+ ],
+ "net.jforum.search.SearchResult": [],
+ "net.jforum.security.PermissionControl": [
+  "net.jforum.security.RoleCollection",
+  "net.jforum.dao.GroupSecurityDAO",
+  "net.jforum.security.RoleValueCollection",
+  "net.jforum.security.Role",
+  "net.jforum.security.RoleValue"
+ ],
+ "net.jforum.security.PermissionItem": [],
+ "net.jforum.security.PermissionSection": [],
+ "net.jforum.security.Role": [
+  "net.jforum.security.RoleValueCollection"
+ ],
+ "net.jforum.security.RoleCollection": [
+  "net.jforum.security.Role"
+ ],
+ "net.jforum.security.RoleValue": [],
+ "net.jforum.security.RoleValueCollection": [
+  "net.jforum.security.RoleValue"
+ ],
+ "net.jforum.security.SecurityConstants": [],
+ "net.jforum.security.XMLPermissionControl": [
+  "net.jforum.security.PermissionSection",
+  "net.jforum.security.PermissionControl",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.DbUtils",
+  "net.jforum.security.Role",
+  "net.jforum.security.XMLPermissionControl.SelectData",
+  "net.jforum.security.RoleValueCollection",
+  "net.jforum.exceptions.ForumException",
+  "net.jforum.security.PermissionItem",
+  "net.jforum.exceptions.DatabaseException",
+  "net.jforum.util.FormSelectedData"
+ ],
+ "net.jforum.security.XMLPermissionControl.SelectData": [],
+ "net.jforum.sso.DefaultLoginAuthenticator": [
+  "net.jforum.sso.LoginAuthenticator",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.MD5",
+  "net.jforum.util.DbUtils",
+  "net.jforum.entities.User",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.sso.LDAPAuthenticator": [
+  "net.jforum.sso.LoginAuthenticator",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.sso.SSOUtils"
+ ],
+ "net.jforum.sso.LoginAuthenticator": [],
+ "net.jforum.sso.RemoteUserSSO": [
+  "net.jforum.sso.SSO",
+  "net.jforum.context.RequestContext",
+  "net.jforum.entities.UserSession",
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.sso.SSO": [],
+ "net.jforum.sso.SSOUtils": [
+  "net.jforum.entities.User",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.dao.DataAccessDriver"
+ ],
+ "net.jforum.summary.SummaryJob": [
+  "net.jforum.summary.SummaryModel"
+ ],
+ "net.jforum.summary.SummaryModel": [
+  "net.jforum.util.mail.Spammer",
+  "net.jforum.dao.SummaryDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.entities.User"
+ ],
+ "net.jforum.summary.SummaryScheduler": [
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.util.Captcha": [
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.context.ResponseContext",
+  "net.jforum.JForumExecutionContext"
+ ],
+ "net.jforum.util.CategoryOrderComparator": [
+  "net.jforum.entities.Category"
+ ],
+ "net.jforum.util.DbUtils": [],
+ "net.jforum.util.FileChangeListener": [],
+ "net.jforum.util.FileMonitor": [
+  "net.jforum.util.FileChangeListener",
+  "net.jforum.util.FileMonitor.FileMonitorTask"
+ ],
+ "net.jforum.util.FileMonitor.FileMonitorTask": [
+  "net.jforum.util.FileChangeListener"
+ ],
+ "net.jforum.util.FormSelectedData": [],
+ "net.jforum.util.ForumOrderComparator": [
+  "net.jforum.entities.Forum"
+ ],
+ "net.jforum.util.GroupNode": [],
+ "net.jforum.util.I18n": [
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.FileMonitor",
+  "net.jforum.SessionFacade",
+  "net.jforum.entities.UserSession",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.util.MD5": [
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.util.SafeHtml": [
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.util.TreeGroup": [
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.TreeGroupDAO",
+  "net.jforum.util.GroupNode"
+ ],
+ "net.jforum.util.URLNormalizer": [],
+ "net.jforum.util.bbcode.BBCode": [],
+ "net.jforum.util.bbcode.BBCodeHandler": [
+  "net.jforum.util.bbcode.BBCode",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.util.concurrent.Executor": [],
+ "net.jforum.util.image.ImageUtils": [
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.util.legacy.clickstream.BotChecker": [
+  "net.jforum.util.legacy.clickstream.config.ConfigLoader",
+  "net.jforum.util.legacy.clickstream.config.ClickstreamConfig"
+ ],
+ "net.jforum.util.legacy.clickstream.ClickstreamFilter": [],
+ "net.jforum.util.legacy.clickstream.config.ClickstreamConfig": [],
+ "net.jforum.util.legacy.clickstream.config.ConfigLoader": [
+  "net.jforum.util.legacy.clickstream.config.ClickstreamConfig",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.legacy.clickstream.config.ConfigLoader.ConfigHandler"
+ ],
+ "net.jforum.util.legacy.clickstream.config.ConfigLoader.ConfigHandler": [],
+ "net.jforum.util.legacy.commons.fileupload.DefaultFileItem": [
+  "net.jforum.util.legacy.commons.fileupload.disk.DiskFileItem"
+ ],
+ "net.jforum.util.legacy.commons.fileupload.DefaultFileItemFactory": [
+  "net.jforum.util.legacy.commons.fileupload.disk.DiskFileItemFactory",
+  "net.jforum.util.legacy.commons.fileupload.DefaultFileItem"
+ ],
+ "net.jforum.util.legacy.commons.fileupload.DiskFileUpload": [
+  "net.jforum.util.legacy.commons.fileupload.FileUploadBase",
+  "net.jforum.util.legacy.commons.fileupload.DefaultFileItemFactory",
+  "net.jforum.util.legacy.commons.fileupload.disk.DiskFileItemFactory"
+ ],
+ "net.jforum.util.legacy.commons.fileupload.FileItem": [],
+ "net.jforum.util.legacy.commons.fileupload.FileItemFactory": [],
+ "net.jforum.util.legacy.commons.fileupload.FileUpload": [
+  "net.jforum.util.legacy.commons.fileupload.FileUploadBase",
+  "net.jforum.util.legacy.commons.fileupload.FileItemFactory"
+ ],
+ "net.jforum.util.legacy.commons.fileupload.FileUploadBase": [
+  "net.jforum.util.legacy.commons.fileupload.RequestContext",
+  "net.jforum.util.legacy.commons.fileupload.MultipartStream",
+  "net.jforum.util.legacy.commons.fileupload.FileItem",
+  "net.jforum.util.legacy.commons.fileupload.ParameterParser",
+  "net.jforum.util.legacy.commons.fileupload.FileItemFactory",
+  "net.jforum.util.legacy.commons.fileupload.FileUploadBase.InvalidContentTypeException",
+  "net.jforum.util.legacy.commons.fileupload.FileUploadBase.UnknownSizeException",
+  "net.jforum.util.legacy.commons.fileupload.FileUploadBase.SizeLimitExceededException",
+  "net.jforum.util.legacy.commons.fileupload.FileUploadException"
+ ],
+ "net.jforum.util.legacy.commons.fileupload.FileUploadBase.InvalidContentTypeException": [
+  "net.jforum.util.legacy.commons.fileupload.FileUploadException"
+ ],
+ "net.jforum.util.legacy.commons.fileupload.FileUploadBase.SizeLimitExceededException": [
+  "net.jforum.util.legacy.commons.fileupload.FileUploadException"
+ ],
+ "net.jforum.util.legacy.commons.fileupload.FileUploadBase.UnknownSizeException": [
+  "net.jforum.util.legacy.commons.fileupload.FileUploadException"
+ ],
+ "net.jforum.util.legacy.commons.fileupload.FileUploadException": [],
+ "net.jforum.util.legacy.commons.fileupload.MultipartStream": [
+  "net.jforum.util.legacy.commons.fileupload.MultipartStream.MalformedStreamException",
+  "net.jforum.util.legacy.commons.fileupload.MultipartStream.IllegalBoundaryException"
+ ],
+ "net.jforum.util.legacy.commons.fileupload.MultipartStream.IllegalBoundaryException": [],
+ "net.jforum.util.legacy.commons.fileupload.MultipartStream.MalformedStreamException": [],
+ "net.jforum.util.legacy.commons.fileupload.ParameterParser": [],
+ "net.jforum.util.legacy.commons.fileupload.RequestContext": [],
+ "net.jforum.util.legacy.commons.fileupload.disk.DiskFileItem": [
+  "net.jforum.util.legacy.commons.fileupload.FileItem",
+  "net.jforum.util.legacy.commons.fileupload.ParameterParser",
+  "net.jforum.util.legacy.commons.fileupload.FileUploadException"
+ ],
+ "net.jforum.util.legacy.commons.fileupload.disk.DiskFileItemFactory": [
+  "net.jforum.util.legacy.commons.fileupload.FileItemFactory",
+  "net.jforum.util.legacy.commons.fileupload.disk.DiskFileItem"
+ ],
+ "net.jforum.util.legacy.commons.fileupload.servlet.ServletFileUpload": [
+  "net.jforum.util.legacy.commons.fileupload.FileUpload"
+ ],
+ "net.jforum.util.legacy.commons.fileupload.servlet.ServletRequestContext": [
+  "net.jforum.util.legacy.commons.fileupload.RequestContext"
+ ],
+ "net.jforum.util.mail.ActivationKeySpammer": [
+  "net.jforum.util.mail.Spammer",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.entities.User",
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.util.mail.EmailSenderTask": [
+  "net.jforum.util.mail.Spammer"
+ ],
+ "net.jforum.util.mail.ForumNewTopicSpammer": [
+  "net.jforum.util.mail.Spammer",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.view.forum.common.PostCommon",
+  "net.jforum.entities.Post",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.Topic",
+  "net.jforum.entities.Forum"
+ ],
+ "net.jforum.util.mail.IdentifiableMimeMessage": [],
+ "net.jforum.util.mail.LostPasswordSpammer": [
+  "net.jforum.util.mail.Spammer",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.entities.User",
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.util.mail.PrivateMessageSpammer": [
+  "net.jforum.util.mail.Spammer",
+  "net.jforum.entities.User",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.util.mail.Spammer": [
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.User",
+  "net.jforum.util.mail.IdentifiableMimeMessage",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.exceptions.MailException"
+ ],
+ "net.jforum.util.mail.TopicReplySpammer": [
+  "net.jforum.util.mail.Spammer",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.Topic",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.api.integration.mail.pop.MessageId",
+  "net.jforum.entities.Post",
+  "net.jforum.view.forum.common.PostCommon"
+ ],
+ "net.jforum.util.preferences.ConfigKeys": [],
+ "net.jforum.util.preferences.QueriesFileListener": [
+  "net.jforum.util.FileChangeListener",
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.util.preferences.SystemGlobals": [
+  "net.jforum.util.preferences.VariableStore",
+  "net.jforum.util.preferences.VariableExpander",
+  "net.jforum.ConfigLoader",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.util.preferences.SystemGlobalsListener": [
+  "net.jforum.util.FileChangeListener",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.ConfigLoader"
+ ],
+ "net.jforum.util.preferences.TemplateKeys": [],
+ "net.jforum.util.preferences.VariableExpander": [
+  "net.jforum.util.preferences.VariableStore"
+ ],
+ "net.jforum.util.preferences.VariableStore": [],
+ "net.jforum.util.rss.GenericRSS": [
+  "net.jforum.util.rss.RSSAware",
+  "net.jforum.util.rss.RSS",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.util.rss.RSS": [],
+ "net.jforum.util.rss.RSSAware": [],
+ "net.jforum.util.rss.RSSItem": [],
+ "net.jforum.util.rss.RSSUtils": [
+  "net.jforum.util.preferences.SystemGlobals"
+ ],
+ "net.jforum.util.rss.RecentTopicsRSS": [
+  "net.jforum.util.rss.TopicRSS",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.util.rss.RSS"
+ ],
+ "net.jforum.util.rss.TopicPostsRSS": [
+  "net.jforum.util.rss.GenericRSS",
+  "net.jforum.util.rss.RSS",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.Post",
+  "net.jforum.util.rss.RSSItem",
+  "net.jforum.view.forum.common.PostCommon",
+  "net.jforum.util.rss.RSSUtils"
+ ],
+ "net.jforum.util.rss.TopicRSS": [
+  "net.jforum.util.rss.GenericRSS",
+  "net.jforum.util.rss.RSS",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.Post",
+  "net.jforum.util.rss.RSSItem",
+  "net.jforum.util.rss.RSSUtils",
+  "net.jforum.view.forum.common.PostCommon"
+ ],
+ "net.jforum.view.admin.AdminAction": [
+  "net.jforum.Command",
+  "net.jforum.SessionFacade",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.entities.UserSession",
+  "net.jforum.security.PermissionControl",
+  "net.jforum.context.RequestContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.repository.ModulesRepository",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.api.integration.mail.pop.POPListener"
+ ],
+ "net.jforum.view.admin.AdminCommand": [
+  "net.jforum.Command",
+  "net.jforum.view.admin.AdminAction"
+ ],
+ "net.jforum.view.admin.AttachmentsAction": [
+  "net.jforum.view.admin.AdminCommand",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.Command",
+  "net.jforum.view.admin.ConfigAction",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.AttachmentDAO",
+  "net.jforum.util.TreeGroup",
+  "net.jforum.entities.QuotaLimit",
+  "net.jforum.context.RequestContext",
+  "net.jforum.entities.AttachmentExtensionGroup",
+  "net.jforum.entities.AttachmentExtension"
+ ],
+ "net.jforum.view.admin.BanlistAction": [
+  "net.jforum.view.admin.AdminCommand",
+  "net.jforum.Command",
+  "net.jforum.context.RequestContext",
+  "net.jforum.entities.Banlist",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.BanlistDAO",
+  "net.jforum.repository.BanlistRepository",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.view.admin.BannerAction": [
+  "net.jforum.view.admin.AdminCommand",
+  "net.jforum.dao.BannerDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.Command",
+  "net.jforum.context.RequestContext",
+  "net.jforum.entities.Banner"
+ ],
+ "net.jforum.view.admin.CacheAction": [
+  "net.jforum.view.admin.AdminCommand",
+  "net.jforum.Command",
+  "net.jforum.repository.BBCodeRepository",
+  "net.jforum.util.bbcode.BBCodeHandler",
+  "net.jforum.SessionFacade",
+  "net.jforum.repository.ModulesRepository",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.repository.SmiliesRepository",
+  "net.jforum.repository.RankingRepository",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.context.RequestContext",
+  "net.jforum.repository.TopicRepository",
+  "net.jforum.repository.PostRepository",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.repository.SecurityRepository"
+ ],
+ "net.jforum.view.admin.CategoryAction": [
+  "net.jforum.view.admin.AdminCommand",
+  "net.jforum.dao.CategoryDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.Command",
+  "net.jforum.util.TreeGroup",
+  "net.jforum.context.RequestContext",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.entities.Category",
+  "net.jforum.view.admin.common.ModerationCommon",
+  "net.jforum.security.PermissionControl",
+  "net.jforum.security.Role",
+  "net.jforum.security.RoleValue",
+  "net.jforum.security.RoleValueCollection",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.repository.RolesRepository"
+ ],
+ "net.jforum.view.admin.ConfigAction": [
+  "net.jforum.view.admin.AdminCommand",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.Command",
+  "net.jforum.context.RequestContext",
+  "net.jforum.util.I18n",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.entities.Category",
+  "net.jforum.repository.TopicRepository",
+  "net.jforum.entities.Forum",
+  "net.jforum.util.SafeHtml",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.view.admin.ForumAction": [
+  "net.jforum.view.admin.AdminCommand",
+  "net.jforum.dao.CategoryDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.Command",
+  "net.jforum.util.TreeGroup",
+  "net.jforum.context.RequestContext",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.entities.Forum",
+  "net.jforum.view.admin.common.ModerationCommon",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.dao.MailIntegrationDAO",
+  "net.jforum.entities.MailIntegration",
+  "net.jforum.entities.Category",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.repository.RolesRepository",
+  "net.jforum.security.PermissionControl",
+  "net.jforum.security.Role",
+  "net.jforum.security.RoleValue",
+  "net.jforum.security.RoleValueCollection"
+ ],
+ "net.jforum.view.admin.GroupAction": [
+  "net.jforum.view.admin.AdminCommand",
+  "net.jforum.util.TreeGroup",
+  "net.jforum.Command",
+  "net.jforum.context.RequestContext",
+  "net.jforum.entities.Group",
+  "net.jforum.dao.GroupDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.security.PermissionControl",
+  "net.jforum.dao.GroupSecurityDAO",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.security.XMLPermissionControl",
+  "net.jforum.view.admin.PermissionProcessHelper",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.repository.RolesRepository",
+  "net.jforum.repository.ForumRepository"
+ ],
+ "net.jforum.view.admin.LuceneStatsAction": [
+  "net.jforum.view.admin.AdminCommand",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.Command",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.search.LuceneSettings",
+  "net.jforum.context.RequestContext",
+  "net.jforum.search.LuceneReindexer",
+  "net.jforum.exceptions.ForumException",
+  "net.jforum.search.LuceneReindexArgs"
+ ],
+ "net.jforum.view.admin.ModerationAction": [
+  "net.jforum.view.admin.AdminCommand",
+  "net.jforum.Command",
+  "net.jforum.dao.ModerationDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.context.RequestContext",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.entities.Post",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.repository.TopicRepository",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.entities.Topic",
+  "net.jforum.view.forum.common.TopicsCommon",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.repository.PostRepository",
+  "net.jforum.view.forum.common.PostCommon",
+  "net.jforum.view.forum.common.AttachmentCommon"
+ ],
+ "net.jforum.view.admin.PermissionProcessHelper": [
+  "net.jforum.security.PermissionControl",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.context.RequestContext",
+  "net.jforum.security.Role",
+  "net.jforum.security.RoleValueCollection",
+  "net.jforum.security.RoleValue"
+ ],
+ "net.jforum.view.admin.RankingAction": [
+  "net.jforum.view.admin.AdminCommand",
+  "net.jforum.dao.RankingDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.Command",
+  "net.jforum.context.RequestContext",
+  "net.jforum.entities.Ranking",
+  "net.jforum.repository.RankingRepository"
+ ],
+ "net.jforum.view.admin.SmiliesAction": [
+  "net.jforum.view.admin.AdminCommand",
+  "net.jforum.context.RequestContext",
+  "net.jforum.util.MD5",
+  "net.jforum.util.legacy.commons.fileupload.FileItem",
+  "net.jforum.view.forum.common.UploadUtils",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.Command",
+  "net.jforum.entities.Smilie",
+  "net.jforum.dao.SmilieDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.repository.SmiliesRepository"
+ ],
+ "net.jforum.view.admin.UserAction": [
+  "net.jforum.view.admin.AdminCommand",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.Command",
+  "net.jforum.context.RequestContext",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.util.TreeGroup",
+  "net.jforum.dao.RankingDAO",
+  "net.jforum.view.forum.common.UserCommon",
+  "net.jforum.SessionFacade",
+  "net.jforum.entities.User",
+  "net.jforum.entities.Group",
+  "net.jforum.dao.GroupDAO",
+  "net.jforum.repository.SecurityRepository"
+ ],
+ "net.jforum.view.admin.common.ModerationCommon": [
+  "net.jforum.entities.Category",
+  "net.jforum.entities.Forum",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.TopicDAO"
+ ],
+ "net.jforum.view.forum.AjaxAction": [
+  "net.jforum.Command",
+  "net.jforum.context.RequestContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.User",
+  "net.jforum.util.mail.Spammer",
+  "net.jforum.search.SearchFacade",
+  "net.jforum.search.LuceneSearch",
+  "net.jforum.search.LuceneManager",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.entities.Post",
+  "net.jforum.view.forum.common.PostCommon",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.view.forum.ModerationHelper",
+  "net.jforum.entities.ModerationLog",
+  "net.jforum.repository.PostRepository",
+  "net.jforum.util.SafeHtml"
+ ],
+ "net.jforum.view.forum.BannerAction": [
+  "net.jforum.Command",
+  "net.jforum.context.RequestContext",
+  "net.jforum.view.forum.common.BannerCommon",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.BannerDAO",
+  "net.jforum.entities.Banner"
+ ],
+ "net.jforum.view.forum.BookmarkAction": [
+  "net.jforum.Command",
+  "net.jforum.context.RequestContext",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.entities.Forum",
+  "net.jforum.dao.BookmarkDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.entities.Bookmark",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.entities.Topic",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.entities.User",
+  "net.jforum.util.SafeHtml",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.repository.SecurityRepository"
+ ],
+ "net.jforum.view.forum.CaptchaAction": [
+  "net.jforum.Command",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.Captcha"
+ ],
+ "net.jforum.view.forum.ForumAction": [
+  "net.jforum.Command",
+  "net.jforum.view.forum.common.ForumCommon",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.context.RequestContext",
+  "net.jforum.util.I18n",
+  "net.jforum.entities.MostUsersEverOnline",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.entities.Forum",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.view.forum.common.TopicsCommon",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.dao.ModerationDAO",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.view.forum.SearchAction",
+  "net.jforum.view.admin.ModerationAction",
+  "net.jforum.view.forum.ModerationHelper",
+  "net.jforum.view.forum.common.PostCommon"
+ ],
+ "net.jforum.view.forum.HottestTopicsAction": [
+  "net.jforum.Command",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.view.forum.common.TopicsCommon",
+  "net.jforum.context.RequestContext",
+  "net.jforum.repository.TopicRepository",
+  "net.jforum.entities.Topic",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.entities.User",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.dao.TopicDAO"
+ ],
+ "net.jforum.view.forum.JSAction": [
+  "net.jforum.Command",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.context.RequestContext"
+ ],
+ "net.jforum.view.forum.KarmaAction": [
+  "net.jforum.Command",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.context.RequestContext",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.Post",
+  "net.jforum.dao.KarmaDAO",
+  "net.jforum.entities.Karma",
+  "net.jforum.repository.PostRepository",
+  "net.jforum.view.forum.common.PostCommon",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.entities.KarmaStatus"
+ ],
+ "net.jforum.view.forum.ModerationAction": [
+  "net.jforum.Command",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.dao.ModerationLogDAO",
+  "net.jforum.entities.ModerationLog",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.entities.Post",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.entities.Topic",
+  "net.jforum.view.forum.common.PostCommon",
+  "net.jforum.context.RequestContext",
+  "net.jforum.view.forum.ModerationHelper",
+  "net.jforum.JForumExecutionContext"
+ ],
+ "net.jforum.view.forum.ModerationHelper": [
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.context.RequestContext",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.ModerationLogDAO",
+  "net.jforum.entities.User",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.entities.ModerationLog",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.entities.Topic",
+  "net.jforum.repository.PostRepository",
+  "net.jforum.repository.TopicRepository",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.view.forum.common.ForumCommon"
+ ],
+ "net.jforum.view.forum.PostAction": [
+  "net.jforum.Command",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.SessionFacade",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.context.RequestContext",
+  "net.jforum.repository.TopicRepository",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.entities.Topic",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.entities.Forum",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.view.forum.common.TopicsCommon",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.entities.UserSession",
+  "net.jforum.security.PermissionControl",
+  "net.jforum.view.forum.common.PostCommon",
+  "net.jforum.dao.PollDAO",
+  "net.jforum.dao.KarmaDAO",
+  "net.jforum.view.forum.common.ForumCommon",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.entities.Post",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.entities.User",
+  "net.jforum.view.forum.common.AttachmentCommon",
+  "net.jforum.entities.QuotaLimit",
+  "net.jforum.repository.SmiliesRepository",
+  "net.jforum.dao.AttachmentDAO",
+  "net.jforum.view.forum.common.PollCommon",
+  "net.jforum.entities.Poll",
+  "net.jforum.entities.PollChanges",
+  "net.jforum.view.forum.ModerationHelper",
+  "net.jforum.entities.ModerationLog",
+  "net.jforum.repository.PostRepository",
+  "net.jforum.context.SessionContext",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.entities.Attachment",
+  "net.jforum.entities.AttachmentInfo",
+  "net.jforum.context.ResponseContext",
+  "net.jforum.entities.AttachmentExtension",
+  "net.jforum.repository.RankingRepository",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.view.forum.PrivateMessageAction": [
+  "net.jforum.Command",
+  "net.jforum.SessionFacade",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.entities.User",
+  "net.jforum.entities.UserSession",
+  "net.jforum.dao.PrivateMessageDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.context.RequestContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.repository.SmiliesRepository",
+  "net.jforum.entities.PrivateMessage",
+  "net.jforum.view.forum.common.PostCommon",
+  "net.jforum.util.concurrent.Executor",
+  "net.jforum.entities.Post",
+  "net.jforum.util.mail.EmailSenderTask",
+  "net.jforum.util.mail.PrivateMessageSpammer"
+ ],
+ "net.jforum.view.forum.RSSAction": [
+  "net.jforum.Command",
+  "net.jforum.context.RequestContext",
+  "net.jforum.view.forum.common.TopicsCommon",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.entities.Forum",
+  "net.jforum.util.rss.RSSAware",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.entities.Topic",
+  "net.jforum.SessionFacade",
+  "net.jforum.view.forum.UserAction",
+  "net.jforum.util.rss.TopicPostsRSS",
+  "net.jforum.util.rss.RecentTopicsRSS"
+ ],
+ "net.jforum.view.forum.RecentTopicsAction": [
+  "net.jforum.Command",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.view.forum.common.TopicsCommon",
+  "net.jforum.context.RequestContext",
+  "net.jforum.repository.TopicRepository",
+  "net.jforum.entities.Topic",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.entities.User",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.dao.TopicDAO"
+ ],
+ "net.jforum.view.forum.SearchAction": [
+  "net.jforum.Command",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.search.SearchArgs",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.search.SearchOperation",
+  "net.jforum.context.RequestContext",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.search.SearchResult",
+  "net.jforum.view.forum.common.TopicsCommon",
+  "net.jforum.search.NewMessagesSearchOperation",
+  "net.jforum.search.ContentSearchOperation"
+ ],
+ "net.jforum.view.forum.UserAction": [
+  "net.jforum.Command",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.context.RequestContext",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.entities.User",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.view.forum.common.UserCommon",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.security.PermissionControl",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.util.MD5",
+  "net.jforum.util.concurrent.Executor",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.context.ForumContext",
+  "net.jforum.dao.UserSessionDAO",
+  "net.jforum.util.I18n",
+  "net.jforum.ControllerUtils",
+  "net.jforum.dao.BookmarkDAO",
+  "net.jforum.entities.Bookmark",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.util.mail.EmailSenderTask",
+  "net.jforum.util.mail.ActivationKeySpammer",
+  "net.jforum.exceptions.ForumException",
+  "net.jforum.repository.RankingRepository",
+  "net.jforum.util.mail.LostPasswordSpammer"
+ ],
+ "net.jforum.view.forum.common.AttachmentCommon": [
+  "net.jforum.context.RequestContext",
+  "net.jforum.dao.AttachmentDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.util.legacy.commons.fileupload.FileItem",
+  "net.jforum.view.forum.common.UploadUtils",
+  "net.jforum.entities.Attachment",
+  "net.jforum.entities.AttachmentInfo",
+  "net.jforum.entities.AttachmentExtension",
+  "net.jforum.entities.QuotaLimit",
+  "net.jforum.entities.Post",
+  "net.jforum.util.image.ImageUtils",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.entities.User",
+  "net.jforum.entities.Group",
+  "net.jforum.util.MD5",
+  "net.jforum.exceptions.AttachmentException"
+ ],
+ "net.jforum.view.forum.common.BannerCommon": [
+  "net.jforum.dao.BannerDAO",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.entities.Banner"
+ ],
+ "net.jforum.view.forum.common.ForumCommon": [
+  "net.jforum.entities.Forum",
+  "net.jforum.entities.LastPostInfo",
+  "net.jforum.entities.UserSession",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.entities.Category",
+  "net.jforum.SessionFacade",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.util.concurrent.Executor",
+  "net.jforum.util.mail.EmailSenderTask",
+  "net.jforum.util.mail.ForumNewTopicSpammer"
+ ],
+ "net.jforum.view.forum.common.PollCommon": [
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.context.RequestContext",
+  "net.jforum.entities.Poll",
+  "net.jforum.entities.PollOption"
+ ],
+ "net.jforum.view.forum.common.PostCommon": [
+  "net.jforum.entities.Post",
+  "net.jforum.view.forum.common.ViewCommon",
+  "net.jforum.util.SafeHtml",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.bbcode.BBCodeHandler",
+  "net.jforum.repository.BBCodeRepository",
+  "net.jforum.util.bbcode.BBCode",
+  "net.jforum.repository.SmiliesRepository",
+  "net.jforum.entities.Smilie",
+  "net.jforum.context.RequestContext",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.repository.PostRepository",
+  "net.jforum.dao.PostDAO"
+ ],
+ "net.jforum.view.forum.common.TopicsCommon": [
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.repository.TopicRepository",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.SessionFacade",
+  "net.jforum.entities.UserSession",
+  "net.jforum.entities.Topic",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.repository.SecurityRepository",
+  "net.jforum.security.PermissionControl",
+  "net.jforum.repository.ForumRepository",
+  "net.jforum.entities.Forum",
+  "net.jforum.util.concurrent.Executor",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.view.forum.ModerationHelper",
+  "net.jforum.util.mail.EmailSenderTask",
+  "net.jforum.util.mail.TopicReplySpammer"
+ ],
+ "net.jforum.view.forum.common.UploadUtils": [
+  "net.jforum.util.legacy.commons.fileupload.FileItem",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.view.forum.common.UserCommon": [
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.UserDAO",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.context.RequestContext",
+  "net.jforum.entities.User",
+  "net.jforum.util.SafeHtml",
+  "net.jforum.util.MD5",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.view.forum.common.UploadUtils",
+  "net.jforum.util.image.ImageUtils"
+ ],
+ "net.jforum.view.forum.common.ViewCommon": [
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.context.RequestContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.entities.User",
+  "net.jforum.view.forum.common.PostCommon",
+  "net.jforum.exceptions.ForumException"
+ ],
+ "net.jforum.view.install.InstallAction": [
+  "net.jforum.Command",
+  "net.jforum.context.RequestContext",
+  "net.jforum.util.I18n",
+  "net.jforum.entities.UserSession",
+  "net.jforum.SessionFacade",
+  "net.jforum.context.SessionContext",
+  "net.jforum.DBConnection",
+  "net.jforum.JForumExecutionContext",
+  "net.jforum.util.preferences.SystemGlobals",
+  "net.jforum.ConfigLoader",
+  "net.jforum.util.MD5",
+  "net.jforum.view.install.ParseDBDumpFile",
+  "net.jforum.view.install.ParseDBStructFile",
+  "net.jforum.util.DbUtils",
+  "net.jforum.util.FileMonitor",
+  "net.jforum.entities.Topic",
+  "net.jforum.dao.DataAccessDriver",
+  "net.jforum.dao.TopicDAO",
+  "net.jforum.entities.Post",
+  "net.jforum.entities.User",
+  "net.jforum.dao.PostDAO",
+  "net.jforum.dao.ForumDAO",
+  "net.jforum.SimpleConnection",
+  "net.jforum.exceptions.DatabaseException",
+  "net.jforum.exceptions.ForumException",
+  "net.jforum.util.preferences.SystemGlobalsListener",
+  "net.jforum.DataSourceConnection"
+ ],
+ "net.jforum.view.install.ParseDBDumpFile": [],
+ "net.jforum.view.install.ParseDBStructFile": [
+  "net.jforum.exceptions.ForumException"
+ ]
+}

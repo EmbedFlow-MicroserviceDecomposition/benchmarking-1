@@ -1,0 +1,8 @@
+=== jpetstore adapter start 15:16:25 ===
+classes=24 edges=40 entrypoints=4
+=== jpetstore run 1 start 15:16:26 ===
+jpetstore run 1 exit=0
+=== jpetstore run 2 start 15:17:42 ===
+jpetstore run 2 exit=0
+=== jpetstore run 3 start 15:18:57 ===
+jpetstore run 3 exit=0

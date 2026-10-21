@@ -1,0 +1,8 @@
+=== spring-petclinic adapter start 15:20:12 ===
+classes=25 edges=37 entrypoints=4
+=== spring-petclinic run 1 start 15:20:12 ===
+spring-petclinic run 1 exit=0
+=== spring-petclinic run 2 start 15:21:27 ===
+spring-petclinic run 2 exit=0
+=== spring-petclinic run 3 start 15:22:41 ===
+spring-petclinic run 3 exit=0
